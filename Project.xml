@@ -9,6 +9,10 @@
 	<app if="mobile" title='Psych Online' packageName="snirozu.psychonline"
 		package="snirozu.psychonline" company="Snirozu" />
 
+	<preference name="pods_ios_min_version" value="15.0" />
+	<preference name="deployment-target" value="15.0" />
+	<preference name="pods_use_frameworks" value="true" />
+
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
 
